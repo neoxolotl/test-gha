@@ -1,0 +1,16 @@
+on: 
+  push: 
+name: action
+jobs: 
+  hello-world:
+    name: job for regarts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Step hello world
+        id: hello
+        uses: neoxolotl/test_actions@v
+        with:
+          who-to-greet: "Peoples" 
+       - name: Use the output
+         run: echo "The date was ${{ steps.hello.outputs.time }}" 
+
