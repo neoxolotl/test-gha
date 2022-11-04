@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: Step hello world
         id: hello
-        uses: neoxolotl/test_actions@v
+        uses: neoxolotl/test_actions@v2
         with:
           who-to-greet: "Peoplesiii" 
        - name: Use the output
