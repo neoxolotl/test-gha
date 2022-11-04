@@ -10,7 +10,7 @@ jobs:
         id: hello
         uses: neoxolotl/test_actions@v
         with:
-          who-to-greet: "Peoples" 
+          who-to-greet: "Peoplesiii" 
        - name: Use the output
          run: echo "The date was ${{ steps.hello.outputs.time }}" 
 
